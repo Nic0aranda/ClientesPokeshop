@@ -6,8 +6,10 @@ El usuario al menos en la configuracion por defecto no tiene contraseña
 (Este usuario deberia existir por defecto en nuestra bd)
 
 Redirigirse con el cmd a cd "\ecommerce-usuario\ecommerce-usuarios" (o cualquier nombre que se le haya dado a la carpeta que contiene el microservicio)
-Ejecutar este comando con el cmd .\mvnw.cmd -DskipTests=true spring-boot:run
+Ejecutar este comando con el cmd: .\mvnw.cmd -DskipTests=true spring-boot:run
 
 Para visualizar swagger ir a http://localhost:8080/swagger-ui/index.html
 
 Con esto el microservicio deberia de ejecutarse
+
+comando para realizar las pruebas: .\mvnw.cmd test
