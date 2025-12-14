@@ -15,12 +15,6 @@ Con esto el microservicio deberia de ejecutarse
 
 comando para realizar las pruebas: .\mvnw.cmd test
 
-Usuario vendedor para pruebas
-INSERT INTO users (names, email, password, status, rol_id) 
-VALUES (
-    'Vendedor Principal',       
-    'vendedor@pokeshop.com',    
-    'PokeVentas2025!',          
-    1,                          
-    1                          
-);
+Datos de prueba vendedor:
+Email: vendedor@ecommerce.com
+Contraseña: encoded_Vendedor123
